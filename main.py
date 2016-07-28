@@ -30,7 +30,7 @@ import webapp2
 
 
 # The bucket that will be used to list objects.
-BUCKET_NAME = '<your-bucket-name>'
+BUCKET_NAME = 'bucket-sql>'
 
 credentials = GoogleCredentials.get_application_default()
 storage = discovery.build('storage', 'v1', credentials=credentials)
